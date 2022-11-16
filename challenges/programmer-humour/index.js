@@ -16,7 +16,7 @@ function getJoke() {
         .then((data) => {
             div.innerHTML = `<img src="${data.img}"/>`;
             console.log(data);
-        });
+        })
         .catch ((error) => console.log('error'));
 
 }
